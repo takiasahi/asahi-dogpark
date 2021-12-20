@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+/* 共通部分
+------------------------------- */
+html {
+    font-size: 62.5%;
+}
+html * {
+	box-sizing: border-box;
+}
+body {
+  font-family: YuGothic,'Yu Gothic',sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.7;
+  color: #333;
+  letter-spacing: 0.05em;
+  margin: 0;
+}
+a {
+  color: #333;
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+}
+ul, li, p {
+  margin: 0;
+}
+li {
+	list-style-type: none;
+}
+/* 共通クラス */
+.wrapper {
+  max-width: 1184px;
+  margin: 0 auto;
+  padding: 0 4%;
+}
+
+/* 個別部分
+------------------------------- */
+/* header */
+.header-logo {
+  margin-top: 16px;
+  text-align: center;
+}
+.nav-back {
+  margin-top: 16px;
+  background-color: #EEEAE4;
+}
+.nav-list {
+  padding: 20px 0;
+}
+.nav-list li {
+  display: inline;
+  margin-right: 20px;
+}
+.nav-list li a {
+  color: #457703;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+.nav-list li a:hover {
+  color: #D52438;
+}
+
+/* fv */
+.fv-img img {
+  width: 100%;
+}
+
+/* パンくずリスト */
+.breadcrumbs {
+  margin-top: 24px;
+  font-size: 1.4rem;
+}
+.breadcrumbs a:hover {
+  color: #D52438;
+}
+
+/* タイトル */
+.title {
+  margin-top: 32px;
+  padding: 8px 24px;
+  background-color: #F8F8F8;
+  border-left: 8px solid #D52438;
+  color: #457703;
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+.description {
+  margin-top: 32px;
+}
+/* ご利用について */
+.rule-wrapper {
+  margin: 32px auto 0;
+  padding: 0 20%;
+}
+.rule {
+  padding: 24px 52px;
+  border-radius: 8px;
+  background-color: #EEEAE4;
+}
+.rule-title {
+  padding-bottom: 12px;
+  border-bottom: solid 1px #457703;
+}
+.rule-item {
+  margin-top: 20px;
+}
+.rule-item + p {
+  margin-top: 8px;
+}
+.rule-item a:hover {
+  color: #D52438;
+}
+.separate-img {
+  margin-top: 20px;
+  height: 128px;
+  background-image: url(../img/glass.png);
+}
+
+/* フッター */
+.footer {
+  background-color: #EEEAE4;
+  text-align: center;
+}
+.footer p {
+  padding: 20px;
+  font-size: 14px;
+  color: #457703;
+}
